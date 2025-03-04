@@ -14,31 +14,31 @@ Transferir valores entre contas, com tratamento de exceções para garantir segu
 Aplicar uma taxa de 1% sobre depósitos em contas poupança.
 
 # 🧩 Componentes do Projeto
-1. Interface Conta
+## 1. Interface Conta
 Define os métodos básicos que todas as contas devem implementar:
 
 ``consultarSaldo()``: Exibe o saldo atual.
 
 ``depositar(double valor)``: Realiza um depósito.
 
-2. Classe Abstrata ContaBancaria
+## 2. Classe Abstrata ContaBancaria
 Implementa a interface Conta e gerencia o saldo.
 
 Inclui métodos para ``sacar(double valor)`` e verificar saldo suficiente.
 
-3. Classes Concretas
-## ``ContaCorrente``:
+## 3. Classes Concretas
+### ``ContaCorrente``:
 
 Permite depósitos sem taxas.
 
-## ``ContaPoupanca``:
+### ``ContaPoupanca``:
 
 Aplica uma taxa de 1% sobre depósitos.
 
-4. Enum ``TipoConta``
+## 4. Enum ``TipoConta``
 Define os tipos de conta: CORRENTE e POUPANCA.
 
-5. Classe Principal ``BancoKonoha``
+## 5. Classe Principal ``BancoKonoha``
 Contém o método main para execução do programa.
 
 Implementa a funcionalidade de transferência entre contas, com tratamento de exceções.
@@ -61,3 +61,5 @@ Herança: Reutilização de código através de classes base.
 Polimorfismo: Sobrescrita de métodos para comportamentos específicos.
 
 Tratamento de Exceções: Uso de try-catch e IllegalArgumentException.
+
+*Nota: Este projeto foi desenvolvido como parte do curso Java10x e é ideal para quem está começando a aprender Java e POO. É um desafio acessível, prático e educativo! 🚀*
