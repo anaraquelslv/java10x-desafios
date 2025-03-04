@@ -16,8 +16,6 @@ public class ContaPoupanca extends ContaBancaria{
         return tipoConta;
     }
 
-    // teria como alterar a logica para não utilizar o "Set saldo" mas conseguir mudar o valor do saldo dentro do método
-// que herda a classe mãe?
 
     @Override
     public void depositar(double valor) {
