@@ -1,5 +1,3 @@
-package nivelIntermediario.desafio05;
-
 public abstract class ContaBancaria implements Conta {
     private double saldo;
 

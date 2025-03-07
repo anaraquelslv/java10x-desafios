@@ -1,5 +1,3 @@
-package nivelIntermediario.desafio05;
-
 public class ContaPoupanca extends ContaBancaria{
 
     public static final double TAXA_PARA_DEPOSITO = 0.01;

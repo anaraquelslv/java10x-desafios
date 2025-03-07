@@ -1,5 +1,3 @@
-package nivelIntermediario.desafio05;
-
 public class ContaCorrente extends ContaBancaria{
 
     TipoConta tipoConta = TipoConta.CORRENTE;

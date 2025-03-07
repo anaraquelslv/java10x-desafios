@@ -1,4 +1,3 @@
-package nivelIntermediario.desafio05;
 
 import java.util.Objects;
 
